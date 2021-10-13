@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html> 
+
+<body>
+    <form>
+        1st Number : <input type="text" id="fnum" /><br>
+        2nd Number: <input type="text" id="snum" /><br>
+
+        <input type="button" onClick="multiplyBy()" Value="Multiply" />
+    </form>
+    
+
+    <script type="text/javascript">
+        function multiplyBy()
+        {
+            num1 = document.getElementById("fnum").value;
+            num2 = document.getElementById("snum").value;
+            alert(num1 * num2);
+        } 
+    </script>
+</body>
+</html>
